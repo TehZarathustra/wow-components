@@ -51,8 +51,15 @@ GearItem.propTypes = {
   /** Additional description aboe the name */
   description: PropTypes.string,
   className: PropTypes.string,
-  /** One of: poor, common, uncommon, rare, epic, legendary, artifact */
-  rarity: PropTypes.enum
+  rarity: PropTypes.oneOf([
+    'poor',
+    'common',
+    'uncommon',
+    'rare',
+    'epic',
+    'legendary',
+    'artifact'
+  ])
 };
 
 export default GearItem;
