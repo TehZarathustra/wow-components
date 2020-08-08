@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.imageContainer {
+  background-image: url('./itemBorder.png');
+  width: 68px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
