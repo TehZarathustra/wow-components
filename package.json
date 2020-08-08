@@ -28,6 +28,7 @@
     "webpack": "^4.43.0"
   },
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
   }
 }

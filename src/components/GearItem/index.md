@@ -1,7 +1,12 @@
-A very simple button.
+Displays gear item
 
 ```jsx
-import GearItem from "./";
 
-<GearItem id="16800" icon="inv_boots_07" itemName="test42" spec="42" />
+<GearItem
+  wowId="16800"
+  iconId="inv_boots_07"
+  itemName="Arcanist Boots"
+  description="An additional description"
+  rarity="epic"
+/>
 ```
